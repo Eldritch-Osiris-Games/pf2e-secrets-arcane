@@ -2,7 +2,7 @@
 "id":"pf2e-secrets-arcane",
 "title":"Secrets of the Arcane",
 "description":"New Character options for Arcane spellcasters, including new Witch Patrons, Arcane Schools, Arcane Thesis, Familiar Abilities, and Spells",
-"manifest":"https://raw/githubusercontent.com/Eldritch-Osiris-Games/pf2e-secrets-arcane/main/module.json",
+"manifest":"https://raw.githubusercontent.com/Eldritch-Osiris-Games/pf2e-secrets-arcane/main/module.json",
 "download":"https://github.com/Eldritch-Osiris-Games/pf2e-secrets-arcane/archive/refs/heads/main.zip",
 "authors":[{"name": "Eldritch Osiris Games"}],
 "version":"1.0.0",
