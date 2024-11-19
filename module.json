@@ -1,60 +1,108 @@
 {
-"id":"pf2e-secrets-arcane",
-"title":"Secrets of the Arcane",
-"description":"New Character options for Arcane spellcasters, including new Witch Patrons, Arcane Schools, Arcane Thesis, Familiar Abilities, and Spells",
-"manifest":"https://raw.githubusercontent.com/Eldritch-Osiris-Games/pf2e-secrets-arcane/main/module.json",
-"download":"https://github.com/Eldritch-Osiris-Games/pf2e-secrets-arcane/archive/refs/tags/release.zip",
-"authors":[{"name": "Eldritch Osiris Games"}],
-"version":"1.0.0",
-"packs":[
-{"label":"Actions",
-"name":"SotA-Actions",
-"path":"packs/sota-actions",
-"system":"pf2e",
-"type":"Item"
-},
-{"label":"Feats",
-"name":"SotA-Feats",
-"path":"packs/sota-feats",
-"system":"pf2e",
-"type":"Item"
-},
-{"label":"Class Features",
-"name":"SotA-Class-Features",
-"path":"packs/sota-class-features",
-"system":"pf2e",
-"type":"Item"
-},
-{"label":"Familiar Abilities",
-"name":"SotA-Familiar-Abilities",
-"path":"packs/sota-familiar-abilities",
-"system":"pf2e",
-"type":"Item"
-},
-{"label":"Spells",
-"name":"SotA-Spells",
-"path":"packs/sota-spells",
-"system":"pf2e",
-"type":"Item"
-},
-{"label":"Effects",
-"name":"SotA-Effects",
-"path":"packs/sota-effects",
-"system":"pf2e",
-"type":"Item"
-}],
-"packFolders":[
-{"name": "Secrets of the Arcane",
-"sorting":"a",
-"packs":[
-"SotA-Actions",
-"SotA-Class-Features",
-"SotA-Familiar-Abilities",
-"SotA-Feats",
-"SotA-Spells",
-"SotA-Effects"]}],
-"relationships":{
-"systems": [
+  "id": "pf2e-secrets-arcane",
+  "title": "Secrets of the Arcane",
+  "description": "New Character options for Arcane spellcasters, including new Witch Patrons, Arcane Schools, Arcane Thesis, Familiar Abilities, and Spells",
+  "manifest": "https://raw.githubusercontent.com/Eldritch-Osiris-Games/pf2e-secrets-arcane/main/module.json",
+  "download": "https://github.com/Eldritch-Osiris-Games/pf2e-secrets-arcane/archive/refs/tags/release.zip",
+  "authors": [
+    {
+      "name": "Eldritch Osiris Games",
+      "flags": {}
+    }
+  ],
+  "version": "1.1.0",
+  "packs": [
+    {
+      "label": "Actions",
+      "name": "SotA-Actions",
+      "path": "packs/sota-actions",
+      "system": "pf2e",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Feats",
+      "name": "SotA-Feats",
+      "path": "packs/sota-feats",
+      "system": "pf2e",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Class Features",
+      "name": "SotA-Class-Features",
+      "path": "packs/sota-class-features",
+      "system": "pf2e",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Familiar Abilities",
+      "name": "SotA-Familiar-Abilities",
+      "path": "packs/sota-familiar-abilities",
+      "system": "pf2e",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Spells",
+      "name": "SotA-Spells",
+      "path": "packs/sota-spells",
+      "system": "pf2e",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Effects",
+      "name": "SotA-Effects",
+      "path": "packs/sota-effects",
+      "system": "pf2e",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Secrets of the Arcane",
+      "sorting": "a",
+      "packs": [
+        "SotA-Actions",
+        "SotA-Class-Features",
+        "SotA-Familiar-Abilities",
+        "SotA-Feats",
+        "SotA-Spells",
+        "SotA-Effects"
+      ],
+      "color": null,
+      "folders": []
+    }
+  ],
+  "relationships": {
+    "systems": [
       {
         "id": "pf2e",
         "type": "system",
